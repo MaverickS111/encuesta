@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="4 Pilates - Un espacio moderno y dedicado para tu bienestar físico y mental.">
+    <title>4 Pilates | Bienestar y Equilibrio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">4 <span>pilates</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Filosofía</a></li>
+                    <li><a href="#classes">Clases</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#" id="openModal" class="btn btn-outline">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-up">Encuentra tu <span>centro.</span></h1>
+            <p class="fade-up delay-1">Descubre nuestro método "4 pilates". Fuerza, flexibilidad, control y respiración.</p>
+            <div class="hero-actions fade-up delay-2">
+                <a href="#classes" class="btn btn-primary">Ver Clases</a>
+                <a href="#about" class="btn btn-text">Saber más &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-grid">
+            <div class="about-text fade-in">
+                <h2>Nuestra Filosofía</h2>
+                <p>En <strong>4 Pilates</strong>, creemos que el movimiento es medicina. Nuestro enfoque se basa en los cuatro pilares fundamentales: respiración consciente, activación del core, precisión en cada movimiento y fluidez total.</p>
+                <p>Nuestras instalaciones están diseñadas para ofrecerte paz mental mientras desafías a tu cuerpo. Únete a nuestra comunidad y transforma tu vida.</p>
+                <ul class="about-features">
+                    <li>✓ Atención personalizada</li>
+                    <li>✓ Equipamiento premium (Reformers, Cadillacs)</li>
+                    <li>✓ Instructores certificados</li>
+                </ul>
+            </div>
+            <div class="about-image fade-in delay-1">
+                <div class="image-wrapper">
+                    <!-- Decorativo bg -->
+                    <div class="blob-bg"></div>
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Estudio de Pilates">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes/Services Section -->
+    <section class="classes" id="classes">
+        <div class="container text-center">
+            <h2 class="fade-up">Nuestras Clases</h2>
+            <p class="subtitle fade-up delay-1">Elige la modalidad que mejor se adapte a ti y tus objetivos.</p>
+            
+            <div class="classes-grid">
+                <!-- Card 1 -->
+                <div class="class-card slide-up">
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+                    </div>
+                    <h3>Reformer Classic</h3>
+                    <p>Clase sobre la máquina reformer, ideal para tonificar y controlar cada músculo de forma simétrica.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="class-card slide-up delay-1">
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h3>Pilates Mat</h3>
+                    <p>Trabaja con tu propio peso corporal en el suelo. Mejora tu agilidad y resistencia abdominal.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="class-card slide-up delay-2">
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h3>Clases Privadas</h3>
+                    <p>Atención 1 a 1 adaptada 100% a tus necesidades o posibles rehabilitaciones corporales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container text-center">
+            <h2 class="fade-up">Nuestras Tarifas</h2>
+            <p class="subtitle fade-up delay-1">Planes flexibles diseñados para tu compromiso con el bienestar.</p>
+            
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="pricing-card slide-up">
+                    <div class="pricing-header">
+                        <h3>Básico</h3>
+                        <div class="price"><span>€</span>45<span>/mes</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 4 Clases al mes</li>
+                        <li>✓ Acceso a Mat Pilates</li>
+                        <li>✓ Reserva con 24h de antelación</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" onclick="document.getElementById('openModal').click(); return false;">Consultar</a>
+                </div>
+                <!-- Plan 2 -->
+                <div class="pricing-card popular slide-up delay-1">
+                    <div class="popular-badge">Más Elegido</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price"><span>€</span>80<span>/mes</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 8 Clases al mes</li>
+                        <li>✓ Acceso a Reformer y Mat</li>
+                        <li>✓ Reserva prioritaria</li>
+                        <li>✓ 1 Clase de prueba gratis para un amigo</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" onclick="document.getElementById('openModal').click(); return false;">Consultar</a>
+                </div>
+                <!-- Plan 3 -->
+                <div class="pricing-card slide-up delay-2">
+                    <div class="pricing-header">
+                        <h3>Ilimitado</h3>
+                        <div class="price"><span>€</span>120<span>/mes</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Clases ilimitadas</li>
+                        <li>✓ Acceso total (Reformer, Cadillac)</li>
+                        <li>✓ Evaluación física mensual</li>
+                        <li>✓ Descuento en privadas</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" onclick="document.getElementById('openModal').click(); return false;">Consultar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container text-center">
+            <h2 class="fade-up">Lo que opinan nuestros alumnos</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+                    <p class="quote">"Desde que empecé en 4 Pilates, mi dolor de espalda ha desaparecido y me siento mucho más fuerte en mi día a día."</p>
+                    <h4>- Laura M.</h4>
+                </div>
+                <div class="testimonial-card fade-in delay-1">
+                    <p class="quote">"El estudio es precioso, la luz, las máquinas... Todo te invita a concentrarte y desconectar del exterior."</p>
+                    <h4>- Carlos G.</h4>
+                </div>
+                <div class="testimonial-card fade-in delay-2">
+                    <p class="quote">"El reformer cambió mi vida. Las clases privadas son un nivel superior de entrenamiento consciente."</p>
+                    <h4>- Marta Sánchez</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-card">
+            <button class="modal-close" id="closeModal" aria-label="Cerrar formulario">&times;</button>
+            <div class="modal-header">
+                <div class="modal-logo">4 <span>pilates</span></div>
+                <h2 id="modalTitle">Hablemos</h2>
+                <p>Rellena el formulario y te contactaremos en menos de 24 horas.</p>
+            </div>
+            <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre <span class="required">*</span></label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos <span class="required">*</span></label>
+                        <input type="text" id="apellidos" name="apellidos" required placeholder="Tus apellidos">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono <span class="required">*</span></label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="+34 600 000 000">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+                <button type="submit" class="btn btn-submit-modal" id="submitBtn">Enviar solicitud &rarr;</button>
+            </form>
+            <p id="form-success" class="form-success-msg">¡Gracias! Nos pondremos en contacto contigo pronto.</p>
+        </div>
+    </div>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>4 <span>pilates</span></h2>
+                <p>Tu estudio de bienestar moderno, diseñado para ayudarte a fluir, conectar y fortalecerte cuerpo y mente.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#about">Filosofía</a></li>
+                    <li><a href="#classes">Clases</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>Calle del Bienestar 44, Madrid</p>
+                <p>hola@4pilates.com</p>
+                <p>+34 600 000 000</p>
+                <div class="social-icons">
+                    <a href="#">Instagram</a> | <a href="#">TikTok</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 4 Pilates. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
